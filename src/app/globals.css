@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+  a {
+    @apply no-underline hover:underline;
+  }
+
+  input:focus,
+  input:focus-visible {
+    @apply outline-none;
+  }
+}
+
+@layer utilities {
+  .icon {
+    @apply text-text-primary w-6 h-6;
+  }
+
+  .dot {
+    @apply flex items-center gap-1;
+  }
+  .dot span {
+    @apply flex items-center w-[5px] h-[5px] rounded-full bg-text-primary;
+  }
+  .dot-sm span {
+    @apply w-[4px] h-[4px];
+  }
+
+  .required {
+    @apply relative;
+  }
+  .required::after {
+    content: '*';
+    @apply text-red-500 absolute top-0 -right-3;
+  }
+
+  .input-custom {
+    @apply h-[25px] border-solid border-[1px] border-custom-border rounded-md px-1 text-sm bg-white;
+  }
+}

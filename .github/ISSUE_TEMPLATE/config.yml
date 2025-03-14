@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: View documentation 📚
+    url:
+    about: Check out the official docs for answers to common questions.
+  - name: Feature requests 💡
+    url:
+    about: Suggest a new React hook idea.

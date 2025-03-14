@@ -1,0 +1,63 @@
+{
+  "Common": {
+    "metadata": {
+      "template": "{page}",
+      "notFoundTitle": "Page not found",
+      "loginTitle": "Login",
+      "registerTitle": "Register",
+      "forgotPasswordTitle": "Forgot Password",
+      "resetPasswordTitle": "Reset Password",
+      "emailVerifycationTitle": "Email Verification",
+
+      "workspaceActionTitle": "What would you like to do?",
+      "workspaceCreateTitle": "Create a new workspace",
+      "workspaceInviteTitle": "Invite a team member",
+      "workspaceJoinTitle": "Join a workspace",
+      "workspaceInfoTitle": "Workspace information",
+      "workspaceRequestTitle": "Request to join a workspace",
+      "workspaceRequestAccessChangeTitle": "Request access change",
+      "workspaceRequestAccessSuccessTitle": "Request Sent Successfully",
+      "workspaceSettingProfileTitle": "Complete your profile",
+      "workspaceDone": "Done!!",
+
+      "homeTitle": "Home",
+      "campaignCalculatorTitle": "Campaign Calculator",
+      "trafficAnalyticsTitle": "Traffic Analytics",
+      "urlManagerTitle": "URL Manager",
+
+      "settingProfileTitle": "Setting Profile",
+      "settingOrganizationTitle": "Setting Organization",
+      "settingTeamTitle": "Setting Team",
+      "settingNotificationTitle": "Setting Notification",
+      "settingSecurityTitle": "Setting Security",
+      "settingBillingTitle": "Setting Billing"
+    },
+    "header": {
+      "back": "Back"
+    },
+    "footer": {
+      "copyRight": "Copyright",
+      "public": {
+        "description": "This is a public site",
+        "copyRight": "Copyright "
+      }
+    },
+    "menu": {},
+    "pagination": {},
+    "button": {}
+  },
+  "HomePage": {
+    "title": "Welcome to Our Component Library",
+    "description": " Explore our collection of beautiful and functional UI components",
+    "button": {
+      "getStarted": "View component library"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "description": "We are a team of developers who are passionate about creating beautiful and functional UI components. Our goal is to help you build amazing web applications that your users will love.",
+    "button": {
+      "learnMore": "Learn more"
+    }
+  }
+}
