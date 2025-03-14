@@ -20,6 +20,7 @@ module.exports = withBundleAnalyzer(
       optimizePackageImports: ['react-tna', 'lodash', 'react-toastify', '@mui/x-date-pickers'],
     },
   } as NextConfig),
+  
 );
 
 module.exports = {
